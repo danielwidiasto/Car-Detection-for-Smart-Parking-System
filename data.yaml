@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['empty', 'full']
+
+roboflow:
+  workspace: binus-university-9tbu2
+  project: parking-slot-algorithms
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/binus-university-9tbu2/parking-slot-algorithms/dataset/1
